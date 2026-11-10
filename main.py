@@ -122,7 +122,8 @@ def predict_sentiment(text):
 if __name__ == '__main__':
     train_model()
     # 테스트 예측
-    print(predict_sentiment("이 제품 정말 편리하고 좋습니다."))import joblib
+    print(predict_sentiment("이 제품 정말 편리하고 좋습니다."))
+    import joblib
 import pandas as pd
 import plotly.express as px
 import streamlit as st
