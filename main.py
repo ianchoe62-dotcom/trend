@@ -43,7 +43,8 @@ def preprocess_pipeline():
 
 if __name__ == '__main__':
     collect_data()
-    preprocess_pipeline()from collections import Counter
+    preprocess_pipeline()
+    from collections import Counter
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
