@@ -77,7 +77,8 @@ def run_eda():
     print("3단계: EDA 시각화 및 워드클라우드 저장 완료")
 
 if __name__ == '__main__':
-    run_eda()import joblib
+    run_eda()
+    import joblib
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
